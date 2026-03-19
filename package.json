@@ -9,9 +9,7 @@
     "preview": "vite preview"
   },
   "peerDependencies": {
-    "vue": "^3.5.0"
-  },
-  "dependencies": {
+    "vue": "^3.5.0",
     "motion-v": "^2.0.1"
   },
   "devDependencies": {

@@ -9,6 +9,7 @@ export default defineConfig({
     dts({
       insertTypesEntry: true,
       tsconfigPath: './tsconfig.app.json',
+      exclude: ['src/main.ts', 'src/App.vue'],
     }),
   ],
   build: {
@@ -18,10 +19,11 @@ export default defineConfig({
       fileName: 'sileo-vue',
     },
     rollupOptions: {
-      external: ['vue'],
+      external: ['vue', 'motion-v'],
       output: {
         globals: {
           vue: 'Vue',
+          'motion-v': 'MotionV',
         },
       },
     },
