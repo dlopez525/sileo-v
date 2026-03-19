@@ -2,8 +2,8 @@
 
 A Vue 3 port of [sileo](https://github.com/hiaaryan/sileo) — SVG morphing toast notifications with spring physics and a minimal API. Beautiful by default, no configuration required.
 
-[![npm version](https://img.shields.io/npm/v/sileo-vue)](https://www.npmjs.com/package/sileo-vue)
-[![license](https://img.shields.io/npm/l/sileo-vue)](https://github.com/dlopez525/sileo-vue/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/sileo-v)](https://www.npmjs.com/package/sileo-v)
+[![license](https://img.shields.io/npm/l/sileo-v)](https://github.com/dlopez525/sileo-vue/blob/main/LICENSE)
 
 ---
 
