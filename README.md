@@ -1,4 +1,4 @@
-# sileo-vue
+# sileo-v
 
 A Vue 3 port of [sileo](https://github.com/hiaaryan/sileo) — SVG morphing toast notifications with spring physics and a minimal API. Beautiful by default, no configuration required.
 
@@ -10,9 +10,9 @@ A Vue 3 port of [sileo](https://github.com/hiaaryan/sileo) — SVG morphing toas
 ## Installation
 
 ```bash
-npm install sileo-vue motion-v
+npm install sileo-v motion-v
 # or
-pnpm add sileo-vue motion-v
+pnpm add sileo-v motion-v
 ```
 
 ## Quick Setup
