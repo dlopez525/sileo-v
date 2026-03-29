@@ -1,13 +1,26 @@
 {
   "name": "sileo-v",
   "private": false,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "type": "module",
+  "main": "./dist/sileo-vue.umd.cjs",
+  "module": "./dist/sileo-vue.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/sileo-vue.js",
+      "require": "./dist/sileo-vue.umd.cjs"
+    },
+    "./style.css": "./dist/sileo-vue.css"
+  },
   "license": "MIT",
   "files": ["dist"],
+  "sideEffects": ["**/*.css"],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
+    "prepublishOnly": "npm run build",
     "preview": "vite preview"
   },
   "peerDependencies": {

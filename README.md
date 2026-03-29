@@ -3,7 +3,7 @@
 A Vue 3 port of [sileo](https://github.com/hiaaryan/sileo) — SVG morphing toast notifications with spring physics and a minimal API. Beautiful by default, no configuration required.
 
 [![npm version](https://img.shields.io/npm/v/sileo-v)](https://www.npmjs.com/package/sileo-v)
-[![license](https://img.shields.io/npm/l/sileo-v)](https://github.com/dlopez525/sileo-vue/blob/main/LICENSE)
+[![license](https://img.shields.io/npm/l/sileo-v)](https://github.com/dlopez525/sileo-v/blob/main/LICENSE)
 
 ---
 
@@ -22,8 +22,8 @@ Add `<Toaster />` to your app's root layout, then call `sileo` from anywhere.
 ```vue
 <!-- App.vue -->
 <script setup>
-import { Toaster } from 'sileo-vue'
-import 'sileo-vue/style.css'
+import { Toaster } from 'sileo-v'
+import 'sileo-v/style.css'
 </script>
 
 <template>
@@ -35,7 +35,7 @@ import 'sileo-vue/style.css'
 ## Fire a Toast
 
 ```ts
-import { sileo } from 'sileo-vue'
+import { sileo } from 'sileo-v'
 
 sileo.success({ title: 'Saved' })
 sileo.error({ title: 'Error', description: 'Something went wrong' })
